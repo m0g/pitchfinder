@@ -3,7 +3,7 @@
   "version": "2.0.6",
   "description": "A pitch-detection library for node and the browser",
   "scripts": {
-    "postinstall": "npm run build",
+    "postinstall": "./node_modules/.bin/babel src -d lib",
     "build": "rm -rf ./lib && mkdir lib && babel src -d lib",
     "lint": "eslint ./src",
     "test": "mocha",
