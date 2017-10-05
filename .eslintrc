@@ -1,8 +1,5 @@
 {
   "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "modules": true
-  },
   "env": {
     "browser": false,
     "commonjs": true,

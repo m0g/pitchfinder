@@ -33,13 +33,16 @@
   },
   "homepage": "https://github.com/peterkhayes/pitchfinder#readme",
   "devDependencies": {
-    "babel": "^5.8.20",
-    "babel-eslint": "^6.0.2",
-    "eslint": "^2.7.0",
-    "expect": "^1.16.0",
-    "mocha": "^2.4.5",
+    "babel-cli": "6.23.0",
+    "babel-eslint": "8.0.1",
+    "eslint": "4.8.0",
+    "expect": "21.2.1",
+    "mocha": "4.0.0",
     "mz": "^2.4.0",
     "wav": "^1.0.0",
     "wav-decoder": "^1.1.0"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.24.1"
   }
 }
